@@ -69,7 +69,7 @@ class handler(BaseHTTPRequestHandler):
             try:
                 holiday_date_str = holiday['date']['iso'].split('T')[0]  # Extract date part only
                 holiday_date = datetime.strptime(holiday_date_str, '%Y-%m-%d').date()
-                if holiday_date > current_date:  # Skip today's holiday
+                if holiday_date > current_date:
                     next_holiday = holiday
                     break
             except ValueError as e:
