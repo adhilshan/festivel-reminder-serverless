@@ -5,4 +5,5 @@
       "path": "/api/cron/1m",
       "schedule": "* * * * *"
     },
+  ]
 }
