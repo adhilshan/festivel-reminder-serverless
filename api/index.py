@@ -6,7 +6,7 @@ import requests
 class handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
-        server_key = 'AAAAAcZfmg4:APA91bFQJ53RqjpAJqoPIRxRTTTsNT4Ww-0cWGWJzuX7rDzvQcBihcwGCPIbFuZOGUSAWJDFVgNVmbf2Z-H3TC9p8IBBahd46Lt4-Sb8VHRcYwBg7JZbvXuvT6hMCyf5pFFwB0IxI0Eg'
+        server_key = '9i'
 
         current_date = datetime.now().date()
         current_year = current_date.year
